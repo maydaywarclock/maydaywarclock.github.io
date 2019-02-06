@@ -1,16 +1,13 @@
 .tcw,div{
     -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
 }
 #name,#second,.unit_name,.unit_value{
     color:#FFF
 }
 .pure-g [class*=pure-u],button,html,input,select,textarea{
     font-family:Helvetica,Arial,sans-serif!important
-}
-div{
-    -webkit-box-sizing:border-box;
-    box-sizing:border-box
 }
 .content{
     padding:.4em
@@ -127,12 +124,9 @@ body,html{
     background-color:#E64C4C;
     border:0 solid #FFF
 }
-#name{
-    height:20%
-}
 #counter,.unit_value{
     height:80%
 }
-.unit_name{
+#name,.unit_name{
     height:20%
 }
