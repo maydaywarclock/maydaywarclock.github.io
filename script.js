@@ -309,5 +309,5 @@ $(function() {
     };
     a = new a;
     window.countdown = a.init.bind(a)
+    countdown(1557201600000, true);
 });
-countdown(1557201600000, true);
